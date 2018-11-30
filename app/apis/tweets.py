@@ -1,6 +1,7 @@
 from flask_restplus import Namespace, Resource, fields
 from flask import abort
 from app.models import Tweet
+from app.models import User
 from app import db
 
 api = Namespace('tweets')
